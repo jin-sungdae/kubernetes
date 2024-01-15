@@ -19,3 +19,8 @@ echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https:/
 
 # Install kubectl
 sudo apt-get update && sudo apt-get install -y kubectl
+
+
+##  위 command 실행 안될 시 수동 kubectl 설치
+## sudo apt-get update
+## sudo apt-get install -y kubectl
